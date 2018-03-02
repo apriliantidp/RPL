@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff"
+    tools:context="com.example.aprilianti.privedu.login">
+
+    <ImageView
+        android:layout_width="206dp"
+        android:layout_height="207dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logoprivedu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WHO ARE YOU?"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#4b4b4b"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Student"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffff"
+        android:background="#4b4b4b"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Teacher"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffff"
+        android:background="#4b4b4b"/>
+
+</LinearLayout>
